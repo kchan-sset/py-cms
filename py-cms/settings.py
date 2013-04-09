@@ -119,7 +119,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
-     'py-cms.search',
+     'search',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
