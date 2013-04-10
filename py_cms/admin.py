@@ -1,5 +1,5 @@
 from django.contrib import admin
-from search import models
+from py_cms.search import models
 
 class SearchKeywordAdmin(admin.ModelAdmin):
     pass

@@ -60,7 +60,7 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/py-cms_static/'
+STATIC_URL = '/py_cms_static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -100,13 +100,13 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'wsgi.application'
+WSGI_APPLICATION = 'py_cms.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/Users/kenny.chan/Sites/py_fwk/cms/py-cms/templates/',
+    '/Users/kenny.chan/Sites/py_fwk/cms/py_cms/templates/',
 )
 
 INSTALLED_APPS = (
@@ -119,7 +119,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
-     'search',
+     'py_cms.search',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
